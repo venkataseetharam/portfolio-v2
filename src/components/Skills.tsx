@@ -1,30 +1,30 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Programming Languages",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Tailwind CSS", level: 95 },
+        { name: "Python", level: 95 },
+        { name: "SQL", level: 88 },
+        { name: "C", level: 80 },
+        { name: "Spark", level: 82 },
       ]
     },
     {
-      title: "Backend",
+      title: "Machine Learning & AI",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Python", level: 82 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "MongoDB", level: 80 },
+        { name: "PyTorch", level: 92 },
+        { name: "TensorFlow", level: 90 },
+        { name: "LangChain", level: 88 },
+        { name: "Llama Index", level: 85 },
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Cloud & Tools",
       skills: [
+        { name: "AWS", level: 88 },
+        { name: "Docker", level: 85 },
+        { name: "MLFlow", level: 80 },
         { name: "Git", level: 92 },
-        { name: "Docker", level: 78 },
-        { name: "AWS", level: 75 },
-        { name: "Figma", level: 88 },
       ]
     }
   ];
@@ -33,11 +33,15 @@ const Skills = () => {
     <section id="skills" className="py-20">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 animate-fade-in">
-            Skills & Expertise
+          <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">
+            Technical Skills
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            Specialized in Machine Learning, Deep Learning, and Generative AI technologies
+          </p>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
             {skillCategories.map((category, categoryIndex) => (
               <div 
                 key={category.title}
@@ -70,6 +74,44 @@ const Skills = () => {
                 </div>
               </div>
             ))}
+          </div>
+          
+          {/* Additional skill categories */}
+          <div className="grid md:grid-cols-4 gap-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
+            <div className="text-center">
+              <h4 className="text-lg font-semibold text-primary mb-3">Databases</h4>
+              <div className="space-y-2 text-muted-foreground">
+                <p>Oracle SQL</p>
+                <p>MySQL</p>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <h4 className="text-lg font-semibold text-primary mb-3">Frameworks</h4>
+              <div className="space-y-2 text-muted-foreground">
+                <p>Streamlit</p>
+                <p>Flask</p>
+                <p>AirFlow</p>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <h4 className="text-lg font-semibold text-primary mb-3">Specializations</h4>
+              <div className="space-y-2 text-muted-foreground">
+                <p>NLP</p>
+                <p>Computer Vision</p>
+                <p>Generative AI</p>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <h4 className="text-lg font-semibold text-primary mb-3">Tools</h4>
+              <div className="space-y-2 text-muted-foreground">
+                <p>Tableau</p>
+                <p>VS Code</p>
+                <p>CI/CD</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

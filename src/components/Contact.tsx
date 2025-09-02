@@ -1,40 +1,46 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, Download } from "lucide-react";
 
 const Contact = () => {
   return (
     <section id="contact" className="py-20">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 animate-fade-in">
-            Get In Touch
+          <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">
+            Contact Information
           </h2>
+          
+          <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            Data Scientist | Machine Learning Engineer | Deep Learning Engineer
+          </p>
           
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact info */}
             <div className="space-y-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-primary">
-                  Let's Work Together
+                  Let's Connect
                 </h3>
                 <p className="text-muted-foreground mb-8">
-                  I'm always interested in hearing about new projects and opportunities. 
-                  Whether you're a startup looking to build from scratch or an established 
-                  company needing to modernize, let's discuss how I can help.
+                  I'm always interested in discussing new opportunities in Machine Learning, 
+                  AI, and Data Science. Whether you're looking for an ML Engineer, Data Scientist, 
+                  or AI consultant, let's explore how I can contribute to your team.
                 </p>
               </div>
               
               {/* Contact details */}
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Mail className="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">alex@example.com</p>
+                    <a href="mailto:pendekantiseetharam@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      pendekantiseetharam@gmail.com
+                    </a>
                   </div>
                 </div>
                 
@@ -44,7 +50,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <a href="tel:+17182855670" className="text-muted-foreground hover:text-primary transition-colors">
+                      +1 718 285 5670
+                    </a>
                   </div>
                 </div>
                 
@@ -54,14 +62,42 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Harrison, New Jersey, USA</p>
                   </div>
                 </div>
+                
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Download className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <p className="font-medium">Resume</p>
+                    <a 
+                      href="https://drive.google.com/file/d/1h6oz_Qg_zL_b0HZn8S110dY3OZiruZ3z/view?usp=sharing" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      Download Resume
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Experience highlight */}
+              <div className="glass-card rounded-lg p-6">
+                <h4 className="text-lg font-semibold text-primary mb-3">Current Position</h4>
+                <p className="text-muted-foreground">
+                  <span className="font-medium">LLM Engineer</span> at Connective Care
+                  <br />
+                  <span className="text-sm">Feb 2024 - Present | New York, USA</span>
+                </p>
               </div>
             </div>
             
             {/* Contact form */}
             <div className="glass-card rounded-lg p-8 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+              <h3 className="text-xl font-semibold text-primary mb-6">Send me a message</h3>
               <form className="space-y-6">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
@@ -89,7 +125,7 @@ const Contact = () => {
                   <label htmlFor="subject" className="block text-sm font-medium mb-2">
                     Subject
                   </label>
-                  <Input id="subject" placeholder="Project Inquiry" />
+                  <Input id="subject" placeholder="ML/AI Opportunity" />
                 </div>
                 
                 <div>
@@ -99,7 +135,7 @@ const Contact = () => {
                   <Textarea 
                     id="message" 
                     rows={4}
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell me about the opportunity..."
                   />
                 </div>
                 

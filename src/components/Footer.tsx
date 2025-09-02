@@ -8,28 +8,32 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
             {/* Brand */}
             <div className="text-center md:text-left">
-              <h3 className="text-xl font-bold text-gradient mb-2">Alex Johnson</h3>
-              <p className="text-muted-foreground">Full Stack Developer & UI/UX Designer</p>
+              <h3 className="text-xl font-bold text-gradient mb-2">Venkata Seetharam</h3>
+              <p className="text-muted-foreground">Machine Learning Engineer & Data Scientist</p>
             </div>
             
             {/* Social links */}
             <div className="flex space-x-6">
               <a 
-                href="#" 
+                href="https://www.github.com/venkataseetharam" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="GitHub"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/venkata-seetharam-pendekanti/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="mailto:pendekantiseetharam@gmail.com" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -43,7 +47,7 @@ const Footer = () => {
             <p className="text-muted-foreground flex items-center justify-center space-x-1">
               <span>Made with</span>
               <Heart className="w-4 h-4 text-red-500" />
-              <span>by Alex Johnson © 2024</span>
+              <span>by Venkata Seetharam © 2024</span>
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
-import profileHero from "@/assets/profile-hero.jpg";
+import venkataPic from "@/assets/venkata-profile.png";
 
 const Hero = () => {
   return (
@@ -14,51 +14,60 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Welcome text */}
+          <p className="text-sm text-primary uppercase tracking-wider mb-4 animate-fade-in">
+            Welcome to my Portfolio
+          </p>
+          
           {/* Profile image */}
-          <div className="mb-8 animate-fade-in">
-            <img
-              src={profileHero}
-              alt="Profile"
-              className="w-32 h-32 mx-auto rounded-full border-4 border-primary/20 shadow-2xl"
-            />
+          <div className="mb-8 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            <div className="relative w-48 h-48 mx-auto">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full"></div>
+              <img
+                src={venkataPic}
+                alt="Venkata Seetharam Profile"
+                className="relative w-44 h-44 mx-auto mt-2 rounded-full object-cover border-4 border-background shadow-2xl"
+              />
+            </div>
           </div>
           
           {/* Main heading */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Hi, I'm{" "}
-            <span className="text-gradient">Alex Johnson</span>
+            <span className="text-gradient">Venkata Seetharam</span>
           </h1>
           
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Full Stack Developer & UI/UX Designer
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: '0.3s' }}>
+            a Machine Learning Engineer
           </p>
           
           {/* Description */}
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            I create beautiful, functional digital experiences that make a difference. 
-            Passionate about clean code, elegant design, and solving complex problems.
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            M.S. in Data Science from NJIT with 3+ years of experience in Machine Learning, 
+            Deep Learning, and Generative AI. Currently working as an LLM Engineer at Connective Care, 
+            building cutting-edge AI solutions for mental health support.
           </p>
           
           {/* CTA buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <Button size="lg" className="hero-gradient text-white hover:opacity-90 transition-opacity">
-              View My Work
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-fade-in" style={{ animationDelay: '0.5s' }}>
+            <Button size="lg" className="hero-gradient text-white hover:opacity-90 transition-opacity" asChild>
+              <a href="#projects">View My Work</a>
             </Button>
-            <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/10">
-              Get In Touch
+            <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/10" asChild>
+              <a href="#contact">Get In Touch</a>
             </Button>
           </div>
           
           {/* Social links */}
-          <div className="flex justify-center space-x-6 mb-16 animate-fade-in" style={{ animationDelay: '0.8s' }}>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+          <div className="flex justify-center space-x-6 mb-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
+            <a href="https://www.github.com/venkataseetharam" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/venkata-seetharam-pendekanti/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:pendekantiseetharam@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>

@@ -42,7 +42,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="text-xl font-bold text-gradient">
-            Alex Johnson
+            Venkata Seetharam
           </div>
 
           {/* Desktop navigation */}
@@ -61,7 +61,7 @@ const Navigation = () => {
               className="hero-gradient text-white hover:opacity-90 transition-opacity"
               onClick={() => scrollToSection("#contact")}
             >
-              Hire Me
+              Contact Me
             </Button>
           </div>
 
@@ -94,7 +94,7 @@ const Navigation = () => {
                 className="hero-gradient text-white hover:opacity-90 transition-opacity w-fit"
                 onClick={() => scrollToSection("#contact")}
               >
-                Hire Me
+                Contact Me
               </Button>
             </div>
           </div>
