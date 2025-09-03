@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold text-gradient mb-2">Venkata Seetharam</h3>
-              <p className="text-muted-foreground">Machine Learning Engineer & Data Scientist</p>
+              <p className="text-muted-foreground">AI Engineer & Data Scientist</p>
             </div>
             
             {/* Social links */}
