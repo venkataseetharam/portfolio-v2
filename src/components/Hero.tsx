@@ -39,14 +39,13 @@ const Hero = () => {
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            a Machine Learning Engineer
+            AI Engineer & Data Scientist
           </p>
           
           {/* Description */}
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            AI Engineer and Data Scientist with 5+ years of experience delivering scalable machine learning 
-            and generative AI solutions. M.S. in Data Science from NJIT (GPA: 4.0/4.0). 
-            Currently developing AI-powered patient monitoring systems at Hygia.
+            Passionate about building intelligent systems that solve real-world problems. Experienced in developing RAG frameworks,
+            domain-specific chatbots, and recommendation engines that drive actionable insights and accelerate decision-making.
           </p>
           
           {/* CTA buttons */}

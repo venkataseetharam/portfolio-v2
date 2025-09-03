@@ -2,30 +2,15 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Machine Learning & AI",
-      skills: [
-        { name: "Python", level: 95 },
-        { name: "PyTorch", level: 92 },
-        { name: "LangChain", level: 90 },
-        { name: "Hugging Face", level: 88 },
-      ]
+      skills: ["Python", "PyTorch", "LangChain", "Hugging Face", "XGBoost", "Scikit-learn"]
     },
     {
-      title: "Cloud & MLOps",
-      skills: [
-        { name: "AWS SageMaker", level: 90 },
-        { name: "AWS Bedrock", level: 88 },
-        { name: "MLflow", level: 85 },
-        { name: "Docker", level: 85 },
-      ]
+      title: "Cloud & MLOps", 
+      skills: ["AWS SageMaker", "AWS Bedrock", "MLflow", "Docker", "Kubernetes", "FastAPI"]
     },
     {
       title: "Data & Analytics",
-      skills: [
-        { name: "SQL", level: 92 },
-        { name: "Power BI", level: 88 },
-        { name: "Tableau", level: 85 },
-        { name: "MongoDB", level: 80 },
-      ]
+      skills: ["SQL", "Power BI", "Tableau", "MongoDB", "PostgreSQL", "ETL Pipelines"]
     }
   ];
 
@@ -52,24 +37,15 @@ const Skills = () => {
                   {category.title}
                 </h3>
                 
-                <div className="space-y-4">
+                <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
-                    <div key={skill.name} className="space-y-2">
-                      <div className="flex justify-between">
-                        <span className="text-sm font-medium">{skill.name}</span>
-                        <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                      </div>
-                      
-                      <div className="h-2 bg-muted rounded-full overflow-hidden">
-                        <div 
-                          className="h-full hero-gradient transition-all duration-1000 ease-out"
-                          style={{ 
-                            width: `${skill.level}%`,
-                            animationDelay: `${(categoryIndex * 0.2) + (skillIndex * 0.1)}s`
-                          }}
-                        />
-                      </div>
-                    </div>
+                    <span 
+                      key={skill}
+                      className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium animate-fade-in"
+                      style={{ animationDelay: `${(categoryIndex * 0.2) + (skillIndex * 0.1)}s` }}
+                    >
+                      {skill}
+                    </span>
                   ))}
                 </div>
               </div>

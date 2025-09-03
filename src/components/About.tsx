@@ -19,13 +19,7 @@ const About = () => {
               <p className="text-lg text-muted-foreground">
                 Developed Retrieval-Augmented Generation (RAG) frameworks, domain-specific chatbots, 
                 and recommendation engines using <span className="text-primary font-semibold">Python, PyTorch, LangChain, and AWS SageMaker</span>. 
-                Achieved a 21% improvement in forecast accuracy and increased user engagement by 18%.
-              </p>
-              
-              <p className="text-lg text-muted-foreground">
-                Currently working as an <span className="text-primary font-semibold">AI Engineer at Hygia</span>, 
-                building AI-powered patient monitoring platforms that monitor patient vitals in real time 
-                and alert clinicians to critical changes across 50+ hospital units.
+                Passionate about leveraging AI to create meaningful impact and drive innovation across diverse industries.
               </p>
               
               <div className="space-y-4">
@@ -52,13 +46,13 @@ const About = () => {
               </div>
               
               <div className="glass-card rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">21%</div>
-                <div className="text-muted-foreground">Forecast Accuracy</div>
+                <div className="text-3xl font-bold text-primary mb-2">15+</div>
+                <div className="text-muted-foreground">Projects Completed</div>
               </div>
               
               <div className="glass-card rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">60%</div>
-                <div className="text-muted-foreground">Time Savings</div>
+                <div className="text-3xl font-bold text-primary mb-2">3</div>
+                <div className="text-muted-foreground">Industries Served</div>
               </div>
             </div>
           </div>
