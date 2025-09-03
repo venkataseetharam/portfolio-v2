@@ -73,7 +73,7 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Resume</p>
                     <a 
-                      href="https://drive.google.com/file/d/1h6oz_Qg_zL_b0HZn8S110dY3OZiruZ3z/view?usp=sharing" 
+                      href="https://drive.google.com/file/d/1smvOPm0GoZUD9bkj5PM43-RodyMD57tX/view?usp=share_link" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -88,9 +88,9 @@ const Contact = () => {
               <div className="glass-card rounded-lg p-6">
                 <h4 className="text-lg font-semibold text-primary mb-3">Current Position</h4>
                 <p className="text-muted-foreground">
-                  <span className="font-medium">LLM Engineer</span> at Connective Care
+                  <span className="font-medium">AI Engineer</span> at Hygia
                   <br />
-                  <span className="text-sm">Feb 2024 - Present | New York, USA</span>
+                  <span className="text-sm">Apr 2025 - Present | AI-Powered Patient Monitoring</span>
                 </p>
               </div>
             </div>

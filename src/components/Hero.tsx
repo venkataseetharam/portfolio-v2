@@ -44,9 +44,9 @@ const Hero = () => {
           
           {/* Description */}
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            M.S. in Data Science from NJIT with 3+ years of experience in Machine Learning, 
-            Deep Learning, and Generative AI. Currently working as an LLM Engineer at Connective Care, 
-            building cutting-edge AI solutions for mental health support.
+            AI Engineer and Data Scientist with 5+ years of experience delivering scalable machine learning 
+            and generative AI solutions. M.S. in Data Science from NJIT (GPA: 4.0/4.0). 
+            Currently developing AI-powered patient monitoring systems at Hygia.
           </p>
           
           {/* CTA buttons */}
@@ -64,7 +64,7 @@ const Hero = () => {
             <a href="https://www.github.com/venkataseetharam" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/venkata-seetharam-pendekanti/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/venkata-seetharam" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
             <a href="mailto:pendekantiseetharam@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">

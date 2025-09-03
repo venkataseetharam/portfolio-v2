@@ -11,30 +11,30 @@ const About = () => {
             {/* Text content */}
             <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <p className="text-lg text-muted-foreground">
-                Hello! I'm excited to introduce myself as a recent graduate holding a 
-                <span className="text-primary font-semibold"> Master of Science degree in Data Science</span>, 
-                proudly earned from the esteemed <span className="text-primary font-semibold">New Jersey Institute of Technology</span>.
+                AI Engineer and Data Scientist with over <span className="text-primary font-semibold">5+ years of experience</span> 
+                delivering scalable machine learning and generative AI solutions across 
+                <span className="text-primary font-semibold"> e-commerce, healthcare, and retail</span>.
               </p>
               
               <p className="text-lg text-muted-foreground">
-                Over the past nearly three years, I've had the privilege of working as a 
-                <span className="text-primary font-semibold"> Data Scientist with Wipro</span> on complex data science projects. 
-                This experience has honed my skills in data analysis, machine learning, and model development.
+                Developed Retrieval-Augmented Generation (RAG) frameworks, domain-specific chatbots, 
+                and recommendation engines using <span className="text-primary font-semibold">Python, PyTorch, LangChain, and AWS SageMaker</span>. 
+                Achieved a 21% improvement in forecast accuracy and increased user engagement by 18%.
               </p>
               
               <p className="text-lg text-muted-foreground">
-                Currently, I am working as an <span className="text-primary font-semibold">LLM Engineer at Connective Care</span>, 
-                where I've led the development of a cutting-edge chatbot for mental health support, 
-                emphasizing inclusivity for minority communities.
+                Currently working as an <span className="text-primary font-semibold">AI Engineer at Hygia</span>, 
+                building AI-powered patient monitoring platforms that monitor patient vitals in real time 
+                and alert clinicians to critical changes across 50+ hospital units.
               </p>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold text-primary">Current Focus</h3>
+                <h3 className="text-xl font-semibold text-primary">Core Expertise</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Large Language Model (LLM) Engineering</li>
-                  <li>• Generative AI & Deep Learning</li>
-                  <li>• Natural Language Processing</li>
-                  <li>• Mental health AI applications</li>
+                  <li>• AI-Powered Healthcare Solutions</li>
+                  <li>• RAG Frameworks & LLM Development</li>
+                  <li>• MLOps & Automated Pipelines</li>
+                  <li>• Demand Forecasting & Recommendation Systems</li>
                 </ul>
               </div>
             </div>
@@ -42,23 +42,23 @@ const About = () => {
             {/* Experience stats */}
             <div className="grid grid-cols-2 gap-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <div className="glass-card rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">3+</div>
+                <div className="text-3xl font-bold text-primary mb-2">5+</div>
                 <div className="text-muted-foreground">Years Experience</div>
               </div>
               
               <div className="glass-card rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">M.S.</div>
-                <div className="text-muted-foreground">Data Science NJIT</div>
+                <div className="text-3xl font-bold text-primary mb-2">4.0</div>
+                <div className="text-muted-foreground">GPA M.S. NJIT</div>
               </div>
               
               <div className="glass-card rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">7+</div>
-                <div className="text-muted-foreground">ML Projects</div>
+                <div className="text-3xl font-bold text-primary mb-2">21%</div>
+                <div className="text-muted-foreground">Forecast Accuracy</div>
               </div>
               
               <div className="glass-card rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">AI</div>
-                <div className="text-muted-foreground">Specialist</div>
+                <div className="text-3xl font-bold text-primary mb-2">60%</div>
+                <div className="text-muted-foreground">Time Savings</div>
               </div>
             </div>
           </div>

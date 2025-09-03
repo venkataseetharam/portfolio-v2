@@ -1,30 +1,30 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
-      skills: [
-        { name: "Python", level: 95 },
-        { name: "SQL", level: 88 },
-        { name: "C", level: 80 },
-        { name: "Spark", level: 82 },
-      ]
-    },
-    {
       title: "Machine Learning & AI",
       skills: [
+        { name: "Python", level: 95 },
         { name: "PyTorch", level: 92 },
-        { name: "TensorFlow", level: 90 },
-        { name: "LangChain", level: 88 },
-        { name: "Llama Index", level: 85 },
+        { name: "LangChain", level: 90 },
+        { name: "Hugging Face", level: 88 },
       ]
     },
     {
-      title: "Cloud & Tools",
+      title: "Cloud & MLOps",
       skills: [
-        { name: "AWS", level: 88 },
+        { name: "AWS SageMaker", level: 90 },
+        { name: "AWS Bedrock", level: 88 },
+        { name: "MLflow", level: 85 },
         { name: "Docker", level: 85 },
-        { name: "MLFlow", level: 80 },
-        { name: "Git", level: 92 },
+      ]
+    },
+    {
+      title: "Data & Analytics",
+      skills: [
+        { name: "SQL", level: 92 },
+        { name: "Power BI", level: 88 },
+        { name: "Tableau", level: 85 },
+        { name: "MongoDB", level: 80 },
       ]
     }
   ];
@@ -38,7 +38,7 @@ const Skills = () => {
           </h2>
           
           <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Specialized in Machine Learning, Deep Learning, and Generative AI technologies
+            Expertise in AI/ML, RAG Frameworks, Healthcare AI, and Demand Forecasting
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -79,37 +79,37 @@ const Skills = () => {
           {/* Additional skill categories */}
           <div className="grid md:grid-cols-4 gap-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
             <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary mb-3">Databases</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">LLM & AI</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p>Oracle SQL</p>
-                <p>MySQL</p>
+                <p>GPT-4, LLaMA</p>
+                <p>Prompt Engineering</p>
+                <p>RAG Frameworks</p>
               </div>
             </div>
             
             <div className="text-center">
               <h4 className="text-lg font-semibold text-primary mb-3">Frameworks</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p>Streamlit</p>
+                <p>FastAPI</p>
                 <p>Flask</p>
-                <p>AirFlow</p>
+                <p>Airflow</p>
               </div>
             </div>
             
             <div className="text-center">
               <h4 className="text-lg font-semibold text-primary mb-3">Specializations</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p>NLP</p>
-                <p>Computer Vision</p>
-                <p>Generative AI</p>
+                <p>Healthcare AI</p>
+                <p>Demand Forecasting</p>
+                <p>Anomaly Detection</p>
               </div>
             </div>
             
             <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary mb-3">Tools</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">Certifications</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p>Tableau</p>
-                <p>VS Code</p>
-                <p>CI/CD</p>
+                <p>AWS AI Practitioner</p>
+                <p>IBM Data Science</p>
               </div>
             </div>
           </div>
