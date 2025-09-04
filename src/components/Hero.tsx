@@ -44,7 +44,7 @@ const Hero = () => {
           
           {/* Description */}
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Passionate about building intelligent systems that solve real-world problems. Experienced in developing RAG frameworks,
+            Passionate about building intelligent systems that solve real-world problems. Experienced in developing AI Agents, RAG frameworks,
             domain-specific chatbots, and recommendation engines that drive actionable insights and accelerate decision-making.
           </p>
           
