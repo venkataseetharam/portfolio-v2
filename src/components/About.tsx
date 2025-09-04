@@ -11,7 +11,7 @@ const About = () => {
             {/* Text content */}
             <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <p className="text-lg text-muted-foreground">
-                AI Engineer and Data Scientist with over <span className="text-primary font-semibold">5+ years of experience</span> 
+                AI Engineer and Data Scientist with over <span className="text-primary font-semibold">5+ years of experience </span> 
                 delivering scalable machine learning and generative AI solutions across 
                 <span className="text-primary font-semibold"> e-commerce, healthcare, and retail</span>.
               </p>

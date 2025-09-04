@@ -52,40 +52,40 @@ const Skills = () => {
             ))}
           </div>
           
-          {/* Additional skill categories */}
+          {/* Additional skill categories - Highlighted */}
           <div className="grid md:grid-cols-4 gap-6 animate-fade-in" style={{ animationDelay: '0.8s' }}>
-            <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary mb-3">LLM & AI</h4>
-              <div className="space-y-2 text-muted-foreground">
-                <p>GPT-4, LLaMA</p>
-                <p>Prompt Engineering</p>
-                <p>RAG Frameworks</p>
+            <div className="glass-card rounded-lg p-6 text-center">
+              <h4 className="text-lg font-semibold text-primary mb-4">LLM & AI</h4>
+              <div className="space-y-2">
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">GPT-4, LLaMA</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Prompt Engineering</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">RAG Frameworks</span>
               </div>
             </div>
             
-            <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary mb-3">Frameworks</h4>
-              <div className="space-y-2 text-muted-foreground">
-                <p>FastAPI</p>
-                <p>Flask</p>
-                <p>Airflow</p>
+            <div className="glass-card rounded-lg p-6 text-center">
+              <h4 className="text-lg font-semibold text-primary mb-4">Frameworks</h4>
+              <div className="space-y-2">
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">FastAPI</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Flask</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Airflow</span>
               </div>
             </div>
             
-            <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary mb-3">Specializations</h4>
-              <div className="space-y-2 text-muted-foreground">
-                <p>Healthcare AI</p>
-                <p>Demand Forecasting</p>
-                <p>Anomaly Detection</p>
+            <div className="glass-card rounded-lg p-6 text-center">
+              <h4 className="text-lg font-semibold text-primary mb-4">Specializations</h4>
+              <div className="space-y-2">
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Healthcare AI</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Demand Forecasting</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Anomaly Detection</span>
               </div>
             </div>
             
-            <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary mb-3">Certifications</h4>
-              <div className="space-y-2 text-muted-foreground">
-                <p>AWS AI Practitioner</p>
-                <p>IBM Data Science</p>
+            <div className="glass-card rounded-lg p-6 text-center">
+              <h4 className="text-lg font-semibold text-primary mb-4">Certifications</h4>
+              <div className="space-y-2">
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">AWS AI Practitioner</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">IBM Data Science</span>
               </div>
             </div>
           </div>

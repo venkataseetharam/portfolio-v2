@@ -16,10 +16,6 @@ const Education = () => {
     }
   ];
 
-  const certifications = [
-    "AWS Certified AI Practitioner",
-    "IBM Data Science Professional Certificate"
-  ];
 
   return (
     <section id="education" className="py-20 bg-secondary/30">
@@ -30,10 +26,10 @@ const Education = () => {
           </h2>
           
           <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Academic Background & Professional Certifications
+            Academic Background
           </p>
           
-          <div className="space-y-8 mb-16">
+          <div className="space-y-8">
             {education.map((edu, index) => (
               <div 
                 key={index}
@@ -55,20 +51,6 @@ const Education = () => {
                 </div>
               </div>
             ))}
-          </div>
-
-          <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <h3 className="text-2xl font-semibold text-center mb-8">Certifications</h3>
-            <div className="flex flex-wrap justify-center gap-4">
-              {certifications.map((cert, index) => (
-                <span
-                  key={index}
-                  className="px-4 py-2 bg-primary/10 text-primary rounded-full font-medium"
-                >
-                  {cert}
-                </span>
-              ))}
-            </div>
           </div>
         </div>
       </div>

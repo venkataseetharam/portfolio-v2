@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from './ThemeToggle';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -56,6 +57,7 @@ const Navigation = () => {
                 {item.name}
               </button>
             ))}
+            <ThemeToggle />
             <Button 
               size="sm" 
               className="hero-gradient text-white hover:opacity-90 transition-opacity"
@@ -89,6 +91,9 @@ const Navigation = () => {
                   {item.name}
                 </button>
               ))}
+              <div className="flex justify-center mt-4 mb-2">
+                <ThemeToggle />
+              </div>
               <Button 
                 size="sm" 
                 className="hero-gradient text-white hover:opacity-90 transition-opacity w-fit"
