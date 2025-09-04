@@ -59,7 +59,7 @@ const Skills = () => {
               <div className="space-y-2">
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">GPT-4, LLaMA</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Prompt Engineering</span>
-                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Developing AI agents</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">AI Agents</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">RAG Frameworks</span>
               </div>
             </div>
