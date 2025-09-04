@@ -23,7 +23,7 @@ const Skills = () => {
           </h2>
           
           <p className="text-center text-muted-foreground mb-12 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Expertise in AI/ML, RAG Frameworks, Healthcare AI, and Demand Forecasting
+            Expertise in AI/ML, developing AI agents, RAG Frameworks, Healthcare AI, and Demand Forecasting
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -59,6 +59,7 @@ const Skills = () => {
               <div className="space-y-2">
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">GPT-4, LLaMA</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Prompt Engineering</span>
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Developing AI agents</span>
                 <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">RAG Frameworks</span>
               </div>
             </div>
